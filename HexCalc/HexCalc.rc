@@ -1,0 +1,125 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+HEXCALC DIALOG DISCARDABLE  32, 32, 107, 128
+STYLE WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "HexCalc"
+CLASS "HexCalc"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "D",68,10,26,14,14,BS_FLAT
+    PUSHBUTTON      "A",65,10,42,14,14,BS_FLAT
+    PUSHBUTTON      "7",55,10,58,14,14,BS_FLAT
+    PUSHBUTTON      "4",52,10,74,14,14,BS_FLAT
+    PUSHBUTTON      "1",49,10,90,14,14,BS_FLAT
+    PUSHBUTTON      "0",48,10,106,14,14,BS_FLAT
+    PUSHBUTTON      "0",27,28,6,50,14,BS_FLAT
+    PUSHBUTTON      "E",69,28,26,14,14,BS_FLAT
+    PUSHBUTTON      "B",66,28,42,14,14,BS_FLAT
+    PUSHBUTTON      "8",56,28,58,14,14,BS_FLAT
+    PUSHBUTTON      "5",53,28,74,14,14,BS_FLAT
+    PUSHBUTTON      "2",50,28,90,14,14,BS_FLAT
+    PUSHBUTTON      "Back",8,28,106,32,14,BS_FLAT
+    PUSHBUTTON      "C",67,46,42,14,14,BS_FLAT
+    PUSHBUTTON      "F",70,46,26,14,14,BS_FLAT
+    PUSHBUTTON      "9",57,46,58,14,14,BS_FLAT
+    PUSHBUTTON      "6",54,46,74,14,14,BS_FLAT
+    PUSHBUTTON      "3",51,46,90,14,14,BS_FLAT
+    PUSHBUTTON      "+",43,64,26,14,14,BS_FLAT
+    PUSHBUTTON      "-",45,64,42,14,14,BS_FLAT
+    PUSHBUTTON      "*",42,64,58,14,14,BS_FLAT
+    PUSHBUTTON      "/",47,64,74,14,14,BS_FLAT
+    PUSHBUTTON      "%",37,64,90,14,14,BS_FLAT
+    PUSHBUTTON      "Equals",61,64,106,32,14,BS_FLAT
+    PUSHBUTTON      "&&",38,82,26,14,14,BS_FLAT
+    PUSHBUTTON      "|",124,82,42,14,14,BS_FLAT
+    PUSHBUTTON      "^",94,82,58,14,14,BS_FLAT
+    PUSHBUTTON      "<<",60,82,74,14,14,BS_FLAT
+    PUSHBUTTON      ">>",62,82,90,14,14,BS_FLAT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "HEXCALC", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 99
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 121
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
